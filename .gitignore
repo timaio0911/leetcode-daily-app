@@ -1,0 +1,22 @@
+# 学习记录仓库（独立 git 仓库 = Obsidian vault，不纳入本源码仓库）
+leetcode-daily/
+
+# 打包产物 / 中间产物（py package.py 每次重建）
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# GUI 烟测临时脚本（HANDOVER §7 约定：验证后即删）
+debug_*.py
+
+# 运行时崩溃日志（launcher_gui.py 生成）
+crash.log
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
